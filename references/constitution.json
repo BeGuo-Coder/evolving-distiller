@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "invariants": [
+    {"id": "K01", "rule": "provenance_required"},
+    {"id": "K02", "rule": "rollback_required"},
+    {"id": "K03", "rule": "independent_evaluation_required"},
+    {"id": "K04", "rule": "hard_gates_must_not_weaken"},
+    {"id": "K05", "rule": "no_silent_stable_replacement"},
+    {"id": "K06", "rule": "no_test_standard_gaming"},
+    {"id": "K07", "rule": "weak_inference_not_fact"},
+    {"id": "K08", "rule": "failed_history_preserved"},
+    {"id": "K09", "rule": "shadow_tests_withheld"},
+    {"id": "K10", "rule": "meta_promotion_requires_human"}
+  ],
+  "protected_paths": [
+    "references/constitution.json",
+    "references/evolution-constitution.md",
+    "references/evaluation-rubric.md",
+    "scripts/constitution_guard.py",
+    "scripts/suite_gate.py",
+    "scripts/pairwise_vote.py"
+  ]
+}

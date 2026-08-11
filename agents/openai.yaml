@@ -1,0 +1,3 @@
+interface:
+  display_name: "Evolving Distiller"
+  short_description: "Compile evidence into Skills and evolve them with guarded tests"
